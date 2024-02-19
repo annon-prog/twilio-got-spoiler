@@ -8,4 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Spoiler extends Model
 {
     use HasFactory;
+    protected $fillable =['message'];
 }
