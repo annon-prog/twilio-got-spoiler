@@ -19,11 +19,9 @@ class Twilio
       $this->account_sid = config('services.twilio.account_sid');
      
       $this->auth_token = config('services.twilio.auth_token');
-            var_dump($this->auth_token);
+            
 
       $this->messaging_service_sid = config('services.twilio.messaging_service_sid');
-
-        var_dump($this->messaging_service_sid);
 
       $this->client = $this->setUp();
     }
